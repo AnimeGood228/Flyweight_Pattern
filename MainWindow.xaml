@@ -1,0 +1,12 @@
+﻿<Window x:Class="Flyweight_Pattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Flyweight Pattern Example" Height="300" Width="400">
+    <StackPanel>
+        <TextBox x:Name="NameTextBox" Width="300" Margin="10" />
+        <TextBox x:Name="TypeTextBox" Width="300" Margin="10" />
+        <TextBox x:Name="ImageTextBox" Width="300" Margin="10"/>
+        <Button Content="Создать/Получить Персонажа" Click="OnCreateCharacterClick" Width="200" Margin="10"/>
+        <TextBlock x:Name="ResultTextBlock" Margin="10"/>
+    </StackPanel>
+</Window>
